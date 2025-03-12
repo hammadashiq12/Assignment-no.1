@@ -1,0 +1,26 @@
+grade = int(input("Enter your marks between 0-100:"))#Activity1
+if grade < 0 or grade > 100:
+    print("Invalid input: value should be  betweeen 0-100")
+elif grade < 50:
+    print("Your grade is F")
+elif 50<= grade < 60:
+    print("Your grade is E")
+elif 60<= grade < 70:
+    print("your grade is D")
+elif 70<= grade < 80:
+    print("Your grade is C")
+elif 80<= grade < 90:
+    print("Your grade is B")
+else:
+    print("Your grade is A")
+temprature = int(input("Enter the Temprature:"))#Activity2
+if temprature < 0:
+    print("Freezing")
+elif  0 < temprature < 15:
+    print("Cold") 
+elif 15 < temprature < 30: 
+    print ("Warm") 
+elif 30 < temprature < 45:
+    print("Hot")   
+elif 45 < temprature < 60:
+    print("Very Hot")
